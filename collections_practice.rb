@@ -3,5 +3,6 @@ def sort_array_asc(int)
 end
 
 def sort_array_desc(int)
-  int.sort_by.reverse
+  int.sort do |b, a|
+    a>=<b
 end
