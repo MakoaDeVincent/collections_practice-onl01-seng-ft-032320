@@ -40,3 +40,4 @@ def sum_array(int)
     sum += num
   end
   sum
+end
