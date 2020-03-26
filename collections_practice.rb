@@ -4,5 +4,5 @@ end
 
 def sort_array_desc(int)
   int.sort do |b, a|
-    a>=<b
+    a<=>b
 end
