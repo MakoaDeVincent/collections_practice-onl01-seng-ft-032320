@@ -8,6 +8,6 @@ end
 
 def sort_array_char_count(int)
   int.sort do |a, b|
-    b.length <=> a.length
+    a.length <=> b.length
   end
 end
