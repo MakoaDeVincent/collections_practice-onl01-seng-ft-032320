@@ -45,7 +45,7 @@ end
 def add_s(int)
   int.collect do |word|
     if int[1] == word
-      return word
+      word
     else
       word + "s"
     end
