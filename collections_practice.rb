@@ -21,3 +21,15 @@ end
 def reverse_array(int)
   int.reverse
 end
+
+def kesha_maker(int)
+  int.each do |word|
+    word[2] = "$"
+  end
+end
+
+def find_a(int)
+  int.select do |word|
+    word[0] == "a"
+  end
+end
