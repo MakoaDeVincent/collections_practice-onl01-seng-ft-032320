@@ -33,3 +33,11 @@ def find_a(int)
     word[0] == "a"
   end
 end
+
+def sum_array(int)
+  sum = 0
+  array.each do |num|
+    sum += num
+  end
+  return sum
+  
