@@ -3,4 +3,3 @@ def sort_array_desc(int)
   sorted << int.sort
   return sorted
 end
-  
